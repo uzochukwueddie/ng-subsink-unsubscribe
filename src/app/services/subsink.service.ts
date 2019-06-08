@@ -19,7 +19,7 @@ export class SubsinkService {
     this.capitalizeFirstLetter$.next(str);
   }
 
-  public getString() {
+  getString() {
     return this.capitalizeFirstLetter$;
   }
 }
